@@ -9,7 +9,7 @@
     --color-gray-700: #252542;
     --color-gray-900: #0c0c22;
      
-    --color-bg: hwb(240 95% 0%);
+    --color-bg: hwb(0 100% 0%);
 
     --transition: all 300ms ease;
 
@@ -329,12 +329,22 @@ footer {
 
 
 /*===============POST DETAILS LAYOUT====================*/
-.post-detail {
+/* .post-detail {
     width: var(--form-width);
     background: var(--color-white);
     margin-inline: auto;
     padding: 2rem 0;
+} */
+
+.post-detail {
+    width: 75%; /* Adjust the width as needed */
+    background: var(--color-white);
+    padding: 2rem 0;
+    /* margin: 2rem 0; Add margin for better spacing, adjust as needed */
+    margin-inline: 0; /* Remove the auto margin to make it left-aligned */
+    box-sizing: border-box; /* Include padding in the width calculation */
 }
+
 
 .post-detail__header{
     display: flex;
@@ -406,12 +416,20 @@ input, select, textarea{
     color: var(--color--primary);
 } 
 
-.ql-editor{
+/* .ql-editor{
     overflow: scroll;
     background: var(--color-white);
-    height: 10rem !important;
-}
+    height: 35rem !important;
+    height: flex;
+} */
 
+
+.ql-editor {
+    overflow: scroll;
+    background: var(--color-white);
+    height: 35rem !important; /* Set your desired height */
+    width: 100%; /* Set width to 100% */
+}
 
 
 /*====================================Author section==========================*/
