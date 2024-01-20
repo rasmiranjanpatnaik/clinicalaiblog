@@ -36,7 +36,7 @@ const POST_CATEGORIES = ["Agriculter","Business","Education","Entertainment","Ar
           <div className='container'>
             <h2>EditPost</h2>
             <p className='form__error-message'>
-              This is an error message 
+              
             </p>
             <form className='form create-post__form'>
               <input type='text' placeholder='Title' value={title} onChange={e => setTitle(e.target.value)} autoFocus/>

@@ -346,11 +346,12 @@ footer {
 }
 
 
-.post-detail__header{
+.post-detail__header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-bottom: 1.5rem;
 }
+
 .post-detail__buttons{
     display: flex;
     gap: 1rem;

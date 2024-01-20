@@ -7,15 +7,25 @@ const Postdetails = () => {
   return (
     <section className='post-detail'>
       <div className='container post-details__container'>
-        <div className='post-details__heder'>
-          <PostAuthor/>
-          <div className='post-detail__buttons'>
-            <Link to={'/post/werwer/edit'} className='btn sm primary' >Edit post</Link>
-            <Link to={'/post/werwer/delete'} className='btn sm primary' >Delete Post</Link>
-          </div>
-        </div>
+        {/* <h1>This is the post of title!</h1> */}
+        {/* <div className='post-details__heder'> */}
+          {/* <PostAuthor/> */}
+         {/* <div className='post-detail__buttons'> */}
+            {/* <Link to={'/post/werwer/edit'} className='btn sm primary' >Edit post</Link> */}
+            {/* <Link Link to={'/post/werwer/delete'} className='btn sm primary' >Delete Post</Link> */}
+          {/* </div> */}
+        {/* </div> */}
+        
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <h1>This is the post titjdfklasdjfklsjadfl c fsdjf sjdfhsjf adsf asdf asf sad fsadf adsf sadf asdf sad f sadf sad fsd fsda f   dfh sajfh ksdfh sajfhsadf le!</h1>
+          {/* <div className='post-details__header'> */}
+          <div className='post-details__header' style={{ whiteSpace: 'nowrap',marginLeft: '10px'  }}>
+            <PostAuthor />
+            {/* Other content in post-details__header */}
+         </div>
+        </div> 
 
-        <h1>This is the post of title!</h1>
+
         <div  className='post-details__thumbnail'>
           <img src={Thumbnail} alt=''/>
         </div>

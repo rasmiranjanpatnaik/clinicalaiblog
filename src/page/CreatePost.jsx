@@ -25,7 +25,10 @@ const formats = [
   'list','bullet','indent',
   'link','image',
 ]
-
+// function fn()
+// {
+//   console.log(title);
+// }
 
 const POST_CATEGORIES = ["Agriculter","Business","Education","Entertainment","Art","Invester",
 "Uncategorized", "weather"]
@@ -46,7 +49,7 @@ const POST_CATEGORIES = ["Agriculter","Business","Education","Entertainment","Ar
               </select>
               <ReactQuill modules={modules} formats={formats} value={description} onChange={setDescription}/>
                 <input type='file' onChange={e => setThumbnail(e.target.files[0])} accept='png, jpg, jpeg'/>
-                <button type='submit' className='btn primary'>CreatePost</button>
+                <button className='btn primary'>CreatePost</button>
             </form>
           </div>
         </section>

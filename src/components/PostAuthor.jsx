@@ -8,8 +8,9 @@ const PostAuthor = () => {
     <div className='post__author-avatar'>
         <img src={Avatar} alt=''/>
     </div>
-    <div className='post__author-details'>
-        <h5>By: Founder</h5>
+    <div className='post__author-details' >
+        <h5>By: Clinical AI Assistance</h5>
+        {/* <h3>    Assistance</h3> */}
         <small>Just Now</small>
     </div>
    </Link>
